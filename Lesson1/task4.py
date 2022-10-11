@@ -1,15 +1,14 @@
 #Напишите программу, которая по заданному номеру четверти, показывает диапазон возможных координат точек в этой четверти (x и y).
 
-x = int(input("Введите x: "))
-y = int(input("Введите y: "))
+n = int(input("Input quarter number: "))
 
-if x > 0 and y > 0:
-    print("Точка принадлежит ПЕРВОЙ четверти")
-elif x < 0 and y > 0:
-    print("Точка принадлежит ВТОРОЙ четверти")
-elif x < 0 and y < 0:
-    print("Точка принадлежит ТРЕТЬЕЙ четверти")
-elif x > 0 and y < 0:
-    print("Точка принадлежит ЧЕТВЕРТОЙ четверти")
-else: print("Точка лежит на оси координат")
+if n == 1:
+    print("x > 0 and y > 0")
+elif n == 2:
+    print("x < 0 and y > 0")
+elif n == 3:
+    print("x < 0 and y < 0")
+elif n == 4:
+    print("x > 0 and y < 0")
+else: print("Input value from 1 to 4.")
 
