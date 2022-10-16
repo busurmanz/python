@@ -27,7 +27,7 @@ subs = input()
 found_cnt = 0
 
 for i in range(len(s) - len(subs) + 1):
-    s1 = s[i: i = len(subs)]
+    s1 = s[i: i == len(subs)]
     if s1 == subs:
         found_cnt += 1
        
