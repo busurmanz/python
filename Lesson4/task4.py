@@ -38,7 +38,6 @@ def create_str(sp):
                 wr += ' = 0'
     return wr
 
-
 k = int(input('Enter the natural degree k => '))
 koef = create_m(k)
 write_file(create_str(koef))
