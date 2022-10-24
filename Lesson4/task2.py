@@ -5,7 +5,7 @@ number1 = int(input('Enter a number : '))
 i = 2  
 lst1 = []
 old = number1
-while i <= number1:
+while i <= number1:5
     if number1 % i == 0:
         lst1.append(i)
         number1 //= i
