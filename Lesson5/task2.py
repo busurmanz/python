@@ -11,8 +11,8 @@
 
 # для того чтобы победить в игре, игроку который будет делать первый ход нужно взять 20 конфет 
 
-# import random
-# from random import randint, choice
+import random
+from random import randint, choice
 
 print(
     'Candy Game\n'
@@ -100,7 +100,7 @@ else:
          f'Congratulations! This time He won {winer}!He gets all the candy! ')
 
 
- man against man
+# man against man
 
 
 count_of_candies = int(input('Enter the number of candies to play : '))
