@@ -93,9 +93,9 @@ players = getting_to_know_the_players()
 sweets = sweets_game(players)
 
 winer = game_player_vs_T_1000(sweets, players, messages)
- if not winer:
+if not winer:
      print('We don, t have a winner.')
- else:
+else:
      print(
          f'Congratulations! This time He won {winer}!He gets all the candy! ')
 
@@ -103,11 +103,11 @@ winer = game_player_vs_T_1000(sweets, players, messages)
  man against man
 
 
- count_of_candies = int(input('Enter the number of candies to play : '))
- gamer_1, gamer_2 = input('Enter the name of the first player : '), input(
+count_of_candies = int(input('Enter the number of candies to play : '))
+gamer_1, gamer_2 = input('Enter the name of the first player : '), input(
      'Enter the name of the second player : ')
- current_gamer = gamer_1
- while count_of_candies > 0:
+current_gamer = gamer_1
+while count_of_candies > 0:
      print('Number of remaining candies : {}'.format(count_of_candies))
      while True:
          number_to_delete = int(
@@ -115,6 +115,6 @@ winer = game_player_vs_T_1000(sweets, players, messages)
          if number_to_delete >= 1 and number_to_delete <= 28:
              break
      count_of_candies -= number_to_delete
-    current_gamer = gamer_2 if current_gamer == gamer_1 else gamer_1
+     current_gamer = gamer_2 if current_gamer == gamer_1 else gamer_1
 
- print('Won => {}' .format(current_gamer))
+print('Won => {}' .format(current_gamer))
