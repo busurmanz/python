@@ -34,8 +34,7 @@ def game():
         else:
             print("Эта позиция уже занята.\nКуда поставить знак?")
             continue
-
-        
+1
         if count >= 5:
             if theBoard['7'] == theBoard['8'] == theBoard['9'] != ' ': # across the top
                 printBoard(theBoard)
